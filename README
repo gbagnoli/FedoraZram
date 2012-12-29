@@ -11,8 +11,8 @@ Automated Install
 
 	sudo make install
 	sudo systemctl daemon-reload
-	systemctl enable zram.service
-	systemctl start zram.service
+	sudo systemctl enable zram.service
+	sudo systemctl start zram.service
 
 Manual Install
 --------------
